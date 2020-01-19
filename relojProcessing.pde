@@ -56,7 +56,7 @@ void draw() {
      *  los angulos:
      *  segundos 360/60 = 6; minutos 360/60 = 6; horas 360 /12 = 30
      */
-    print("segundos "+segundos+"\n");
+    //print("segundos "+segundos+"\n");
     
     //segundos
     int xseg = (int)(Math.cos(Math.toRadians(6 * (segundos + offset))) * 180);
